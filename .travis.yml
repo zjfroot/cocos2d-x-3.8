@@ -3,4 +3,5 @@ os:
   
 script:
   - cd build
+  - ls
   - xcodebuild -project cocos2d_libs.xcodeproj -scheme "libcocos2d Mac"
